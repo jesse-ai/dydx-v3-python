@@ -8,16 +8,16 @@ REQUIREMENTS = [
     'dateparser==1.0.0',
     'ecdsa>=0.16.0',
     'eth_keys',
-    'eth-account>=0.4.0,<0.6.0',
+    'eth-account>=0.4.0,<0.9.0',
     'mpmath==1.0.0',
     'requests>=2.22.0,<3.0.0',
     'sympy==1.6',
-    'web3>=5.0.0,<6.0.0',
+    'web3==6.10.0',
 ]
 
 setup(
-    name='dydx-v3-python',
-    version='2.0.1',
+    name='jesse-dydx-v3-python',
+    version='1.0.4',
     packages=find_packages(),
     package_data={
         'dydx3': [
@@ -28,10 +28,10 @@ setup(
     description='dYdX Python REST API for Limit Orders',
     long_description=LONG_DESCRIPTION,
     long_description_content_type='text/markdown',
-    url='https://github.com/dydxprotocol/dydx-v3-python',
-    author='dYdX Trading Inc.',
+    url='https://github.com/jesse-ai/dydx-v3-python',
+    author='Saleh Mir',
     license='Apache 2.0',
-    author_email='contact@dydx.exchange',
+    author_email='saleh@jesse.trade',
     install_requires=REQUIREMENTS,
     keywords='dydx exchange rest api defi ethereum eth',
     classifiers=[
